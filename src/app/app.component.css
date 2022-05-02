@@ -1,0 +1,26 @@
+@import "bootstrap";
+
+table, tr {
+  width: 500px;
+  height: 60px;
+}
+
+table, tr, td {
+  font-size: 30px;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+table tr:nth-child(odd) td:nth-child(even) {
+  background: #404040;
+}
+
+table tr:nth-child(even) td:nth-child(odd) {
+  background: #404040;
+}
+
+.dark {
+  background: #696969;
+  color: white;
+}
+
